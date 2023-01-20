@@ -13,7 +13,7 @@ const Home = ()=> {
           renderer: 'svg',
           loop : true,
           autoplay: true,
-          animationData: require('./blood-home.json')
+          animationData: require('./blood-drop.json')
         })
       },[])
 
