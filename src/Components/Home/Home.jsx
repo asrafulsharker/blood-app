@@ -18,9 +18,9 @@ const Home = ()=> {
       },[])
 
   return (
-    <div className=''>
+    <div className='home-main container'>
         <Nav/>
-        <div className="home container">
+        <div className="home ">
         <div className="home-left">
         <div className="loading__icon" ref={container}></div> 
         </div>

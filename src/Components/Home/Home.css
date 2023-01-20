@@ -1,8 +1,11 @@
+.home-main{
+    height: 100vh;
+}
 .home{
     display: flex;
-    height: 100vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    column-gap: 2rem;
 }
 
 .home-left{
@@ -11,4 +14,12 @@
 
 .home-right{
     flex: 6;
+}
+
+.home-right-p1{
+    font-size: var(--h1-font-size);
+}
+.home-right-p2{
+    font-size: var(--small-font-size);
+    color: var(--blood-color);
 }
