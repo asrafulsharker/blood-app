@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     column-gap: 2rem;
+    height: calc(100vh-4.5rem);
 }
 
 .home-left{
